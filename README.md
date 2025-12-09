@@ -115,3 +115,11 @@ Añadir luces LED controladas desde la interfaz.
 
 - Este proyecto de RC Car controlado por WiFi con ESP32 demuestra una integración eficiente entre hardware y software, logrando un sistema de control remoto estable, intuitivo y fácil de usar desde cualquier dispositivo con navegador. Gracias a la creación de un punto de acceso propio y a la interfaz web con doble joystick, el vehículo puede ser controlado sin necesidad de aplicaciones externas, cables o configuraciones complejas. La implementación en un solo archivo MicroPython simplifica la programación y facilita la replicación del proyecto. En general, se logra un sistema funcional, didáctico y escalable, ideal tanto para aprendizaje como para proyectos más avanzados de robótica o IoT.
 ---
+# 👨‍👨‍👦‍👦 Equipo encargado del proyecto
+- ### Oswaldo González Charles
+- ### Carlos Daniel Sierra Vigueras
+- ### Vazquez Alejos Yahir
+- ### Ivan Antonio Segura Garibay
+- ### José Carlos Medina López
+- ### Víctor Escobar Carrizales
+---
