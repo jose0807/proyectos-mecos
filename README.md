@@ -86,3 +86,32 @@ Abre esta IP en tu navegador para controlar el coche.
 - Funciona perfecto en pantallas táctiles multitouch.
 
 ---
+## 🔧 Temas a mejorar (Ideas para futuras versiones)
+1. Seguridad y estabilidad
+- Agregar cifrado WPA2 o cambiar contraseña desde la interfaz.
+- Implementar reconexión automática del servidor web ante fallos.
+- Proteger las rutas de control con autenticación simple.
+
+2. Control y precisión
+- Linearizar la respuesta del servo para movimientos más suaves.
+- Usar un control PID para el motor y mejorar la tracción.
+- Ajustar el PWM a una curva exponencial para mayor sensibilidad a baja velocidad.
+
+3. Interfaz Web
+- Añadir indicadores visuales (velocidad, ángulo actual).
+- Usar WebSockets para reducir latencia frente a peticiones HTTP.
+- Integrar un modo “gamepad real” compatible con controladores Bluetooth.
+
+4. Hardware
+- Utilizar un driver de motor más eficiente (TB6612FNG) para menor consumo.
+- Incorporar sensor de batería para evitar descargas profundas.
+Añadir luces LED controladas desde la interfaz.
+
+5. Funcionalidades avanzadas
+- Modo autónomo con sensores ultrasónicos o cámara.
+- Grabación de trayectorias o modos de conducción predefinidos.
+---
+# ✅ Conclusión del proyecto
+
+- Este proyecto de RC Car controlado por WiFi con ESP32 demuestra una integración eficiente entre hardware y software, logrando un sistema de control remoto estable, intuitivo y fácil de usar desde cualquier dispositivo con navegador. Gracias a la creación de un punto de acceso propio y a la interfaz web con doble joystick, el vehículo puede ser controlado sin necesidad de aplicaciones externas, cables o configuraciones complejas. La implementación en un solo archivo MicroPython simplifica la programación y facilita la replicación del proyecto. En general, se logra un sistema funcional, didáctico y escalable, ideal tanto para aprendizaje como para proyectos más avanzados de robótica o IoT.
+---
